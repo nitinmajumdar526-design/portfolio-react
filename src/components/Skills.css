@@ -1,0 +1,16 @@
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.skill-card-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.75rem; }
+.skill-icon { font-size: 1.5rem; }
+.skill-category { font-size: 1.1rem; font-weight: 700; color: var(--text); }
+.skill-list { display: flex; flex-direction: column; gap: 1.1rem; }
+.skill-meta { display: flex; justify-content: space-between; margin-bottom: 0.45rem; }
+.skill-name { font-family: var(--font-mono); font-size: 0.82rem; color: var(--text-muted); }
+.skill-pct { font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); }
+.skill-bar { height: 5px; background: var(--surface2); border-radius: 99px; overflow: hidden; }
+.skill-fill {
+  height: 100%; width: 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent3));
+  border-radius: 99px;
+  animation: fillBar 1.2s ease forwards 0.3s;
+}
+@keyframes fillBar { to { width: var(--width); } }
