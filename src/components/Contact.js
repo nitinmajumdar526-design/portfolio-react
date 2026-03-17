@@ -58,10 +58,10 @@ function Contact() {
             I'm always open to discussing new opportunities.
           </p>
           {[
-            { icon: '📧', label: 'Email', val: 'yourname@email.com' },
-            { icon: '💼', label: 'LinkedIn', val: '/in/yourname' },
-            { icon: '🐙', label: 'GitHub', val: '@yourname' },
-            { icon: '📍', label: 'Location', val: 'Your City, Country' },
+            { icon: '📧', label: 'Email', val: 'majumdarnitin22@gmail.com' },
+            // { icon: '💼', label: 'LinkedIn', val: '/in/yourname' },
+            { icon: '🐙', label: 'GitHub', val: '@nitinmajumdar526-design' },
+            { icon: '📍', label: 'Location', val: 'Udaipur, Rajasthan, India' },
           ].map(item => (
             <div key={item.label} className="contact-item">
               <span className="contact-item-icon">{item.icon}</span>

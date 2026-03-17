@@ -41,7 +41,7 @@ function Hero() {
           <span className="mono-tag">&gt;_</span> Hello, World! I'm
         </p>
         <h1 className="hero-name fade-up delay-2">
-          Dev<span className="name-accent">Nitin</span>
+          Dev<span className="name-accent"> Nitin Majumdar</span>
         </h1>
         <p className="hero-role fade-up delay-3">
           <span className="role-text">{displayed}</span>
